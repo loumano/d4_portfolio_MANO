@@ -4,10 +4,24 @@ body {
 }
 
 header {
-  background-color: #f4d0be;
-  color: #ffffff;
-  padding: 6em;
-  position: relative;
+  min-height: 80vh;
+  background-image: url('bg-1.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content-block {
+  background: rgba(170,170,170,0.6);
+  padding : 22px;
+  text-align: center;
+}
+
+.header-content-block h1 {
+  font-size: 4.25em;
 }
 
 section {
