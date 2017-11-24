@@ -1,11 +1,11 @@
 body {
-  background-color: #000;
+  background-color: #ffffff;
   color: #f4d0be;
 }
 
 header {
   min-height: 80vh;
-  background-image: url('bg-1.jpg');
+  background-image: url('images/bg-1.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -31,17 +31,6 @@ section {
   padding: 2em;
 }
 
-header::after {
-  background-color: #f4d0be;
-  content: " ";
-  display: block;
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  left: 50%;
-  bottom : 0;
-  transform: translateX(-50%) translateY(50%) rotate(45deg);
-}
 
 footer {
   background-color: #f4d0be;
