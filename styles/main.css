@@ -1,0 +1,119 @@
+body {
+  background-color: #ffffff;
+  color: #f4d0be;
+}
+
+header {
+  background-color: #f4d0be;
+  color: #ffffff;
+  padding: 6em;
+  position: relative;
+}
+
+section {
+  max-width: 42em;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+}
+
+header::after {
+  background-color: #f4d0be;
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  bottom : 0;
+  transform: translateX(-50%) translateY(50%) rotate(45deg);
+}
+
+footer {
+  background-color: #f4d0be;
+  color: #dddddd;
+  padding: 2em;
+  position: relative;
+}
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+margin: 2em
+}
+
+.linklist a {
+color: #fff;
+}
+
+.nastyadvert {
+  background-color: #000;
+  min-height: 90vh;
+  background-image: url(montfitzroy.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.nastyadvert h1{
+  font-size: 4em;
+  color: white;
+  font-family: 'Modak', cursive;
+text-align: center;
+text-shadow: 1px 1px 2px black;
+}
+
+
+.mywork ul {
+  list-style-type: none;
+  margin: 0 0 5% 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mywork li {
+  width: 25%;
+  margin: 1em;
+}
+
+.mywork img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mywork {
+
+  margin: 2%;
+  overflow: hidden;
+}
+
+.mywork img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+footer::before {
+  background-color: #f4d0be;
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-80%);
+  border-radius: 100%;
+}
